@@ -71,16 +71,16 @@ h2{
 }
 
 .icons{
-    margin: 110px 0;
+    margin: 50px 0px 100px 0px;
     font-size: 23px;
 }
 
 .icon{
     margin-right: 20px;
+    font-size: 25px;
 }
 
 .icon:hover{
-    margin-right: 20px;
     opacity:0.5;
 }
 
@@ -116,7 +116,7 @@ h2{
 .containerSkills{
     text-align: left;
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 p{
@@ -166,8 +166,7 @@ p{
 
 .containerProjects{
     text-align: left;
-    padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 }
 
 .project{
@@ -188,7 +187,23 @@ p{
 
 .containerContact{
     text-align: left;
-    padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 500px;
 }
+
+.arrowUp{
+    padding: 7px 10px;
+    border-radius: 50%;
+    border: 1px solid cadetblue;
+    transition: 1s;
+    font-size: medium;
+    position: fixed;
+    bottom: 15%;
+    right: 15%;
+}
+
+.arrowUp:hover{
+    border: 1px solid #343434;
+}
+
+
 
