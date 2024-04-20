@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #322538;
+    color:#d8cecb;
+}
+
+body{
+    font-family: "Inter";
+}
+
+.containerAll{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    width:90%;
+}
+
+.leftSection{
+    width:100%;
+}
+
+.rightSection{
+    width:100%;
+}
+
+.container{
+    text-align: left;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.fullStack{
+    font-size: 22px;
+    margin-bottom: 15px;
+    color:#f3530e;
+}
+
+.aboutText h5{
+    font-size: 55px;
+    margin-bottom: 100px;
+    line-height: 20px;
+}
+
+.menu{
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 5px;
+    height:30px;
+}
+
+.menu:hover{
+    cursor: pointer;
+    color: #f3530e;
+}
+
+.menu:hover .word{
+    color: #f3530e;
+ }
+  
+.word {
+    transition: 1s;
+    color: #878480;
+}
+
+.icons{
+    margin: 110px 0;
+    font-size: 23px;
+}
+
+.icon{
+    margin-right: 20px;
+}
+
+.icon:hover{
+    margin-right: 20px;
+    opacity:0.5;
+}
+
+.containerAbout{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.h4{
+    font-size: 17px;
+    color:#f3530e;
+    margin-bottom: 20px;
+}
+
+.aboutTextLeft{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    line-height: 20px;
+    width: 500px;
+}
+
+.link{
+    text-decoration: none;
+    color:cadetblue;
+}
+
+.link:hover{
+    color:#f3530e;
+}
+
+.containerSkills{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.toolDiv{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    opacity: 1;
+    transition: 1s;
+}
+
+.toolDiv:hover{
+    opacity: 0.6;
+}
+
+.toolDiv:hover .toolName{
+    border: 1px solid #343434;
+}
+
+.toolHeading{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.toolHeadingColor{
+    color:cadetblue;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.toolHeadingColor:hover{
+    color:#f3530e;
+}
+
+.toolName{
+    margin-right: 10px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    padding: 7px 12px;
+    border-radius: 50px;
+    font-weight: 400;
+    border: 1px solid cadetblue;
+    transition: 1s;
+}
+
+.containerProjects{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.project{
+    margin-bottom:50px;
+}
+
+.projectImg{
+    width:100px;
+    border-radius: 10px;
+    border:1px solid rgb(35, 35, 35);
+    margin:10px 0px 15px 0px;
+}
+
+.projectImg:hover{
+    opacity: 0.7;
+    border:1px solid #f3530e;
+}
+
+.containerContact{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <section class="containerAll" class="box-flex"> 
+        <div class="leftSection">
+            <div class="subLeftSection">
+
+                <!-- Menu  Left Side -->
+                <div class="container">
+                    <h2>Evgenia Epelboym</h2> 
+                    <h4 class="fullStack">Front-End Developer</h4>
+                    <h5 class="aboutTextLeft">
+                        I'm a front-end developer dedicated to crafting<br> 
+                        seamless digital experiences by leveraging my expertise</br>
+                        in front-end technologies.
+                    </h5>
+                    <div class="menu" onclick="handleItemClick('#about')">
+                        <span class="word">about</span>
+                    </div><br>
+                    <div class="menu" onclick="handleItemClick('#skills')">
+                        <span class="word">skills</span>
+                    </div><br>
+                    <div class="menu" onclick="handleItemClick('#projects')">
+                        <span class="word">projects</span>
+                    </div><br>
+                    <div class="menu" onclick="handleItemClick('#contact')">
+                        <span class="word">contact</span>
+                    </div>
+                    <div class="icons">
+                    <a href="https://github.com/2495072" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>  
+                    <a href="https://www.linkedin.com/in/genia-apple-ba1692225/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>  
+                </div>
+                <!-- End Menu  Left Side -->
+
+            </div>
+        </div>
+
+        <div class="rightSection">
+
+            <!-- About section -->
+            <div class="containerAbout" id="about">
+                <h4 class="h4">ABOUT</h4>
+                <p class="aboutText">
+                    Montreal based Graphic and Web Designer with an atomic and vibrant personality, yet a minimalistic nature and passion for design. In my work, I am meticulouse, highly collaborative, driven by passion and curiosity. 
+                </p> 
+                <p class="aboutText">
+                    In 2021, I transitioned into programming, graduating from 
+                    <a href="https://johnabbott.qc.ca" target="_blank" rel="noreferrer" class="link"> John Abbott College's</a> graphic and web design program in 2021.
+                    
+                </p> 
+                <p class="aboutText">
+                    Post-internship, I joined 
+                    <a href="https://veleax.com" target="_blank" rel="noreferrer" class="link"> Veleax Inc.</a>, where I led the design and development of an application from inception to implementation, employing the latest technologies to meet the company's objectives. This experience deepened my technical expertise and underscored the importance of innovation and continuous learning in software development. 
+                </p>
+            </div>
+
+            <!-- My skills section -->
+            <div class="containerSkills" id="skills">
+                <div class="skills">
+                <h4 class="h4">SKILLS</h4>
+                    <div class="toolDiv">
+                        <h3 class="toolHeading">Languages</h3>
+                        <p>
+                            <button class="toolName">HTML</button>
+                            <button class="toolName">CSS</button>
+                            <button class="toolName">Java Script</button>
+                            <button class="toolName">PHP</button>
+                        </p>
+                    </div>
+
+                    <div class="toolDiv">
+                        <h3 class="toolHeading">Design Softwares</h3>
+                        <p>
+                            <button class="toolName">Adobe Illustrator</button>
+                            <button class="toolName">Adobe Photoshop</button>
+                            <button class="toolName">Adobe InDesign</button>
+                            <button class="toolName">Adobe XD</button>
+                            <button class="toolName">Adobe Premiere Pro</button>
+                        </p>
+                    </div> 
+                </div>
+            </div>
+
+
+            <!-- My Projects section -->
+            <div id="projects" class="containerProjects">
+                <h4 class="h4">PROJECTS</h4>
+                <div>
+                    <div class="project">
+                        <h3 class="toolHeading">Project: <a href="projects/tsubame/index.html" target="_blank" rel="noreferrer" class="toolHeadingColor">Tsubame</a></h3>
+                        <p class="aboutText">
+                            Tsubame is an individual project focused on serving the essence of the traditional Japanese tea ceremony and associated activities. Built using HTML and CSS, Tsubame provides a digital platform to explore the art of tea-making and engage in related cultural practices. From serene tea rituals to immersive activities, Tsubame offers an interactive experience that celebrates Japanese heritage and fosters appreciation for its traditions.
+                        </p>
+                        <a href="projects/tsubame/index.html" target="_blank" rel="noreferrer">
+                                <img src="projects.jpg" alt="project name image" class="projectImg"/>
+                        </a><br></br>
+                            <button class="toolName">HTML</button>
+                            <button class="toolName">CSS</button>
+                            <button class="toolName">Java Script</button>
+                            <button class="toolName">Adobe Illustrator</button>
+                        <div class="icons">
+                            <a href="https://github.com/2495072/tsubame" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>  
+                            <a href="projects/tsubame/index.html" target="_blank" rel="noreferrer"><i class="fa-solid fa-desktop"></i></a>
+                        </div> 
+                    </div>
+
+                    <div class="project">
+                        <h3 class="toolHeading">Project: <a href="school_projects.jpg" target="_blank" rel="noreferrer" class="toolHeadingColor">Design projects</a></h3>
+                        <p class="aboutText">
+                            Presented works were performed as a school projects.
+                        </p>
+                        <a href="school_projects.jpg" target="_blank" rel="noreferrer">
+                                <img src="school_projects.jpg" alt="project name image" class="projectImg"/>
+                        </a><br></br>
+                            <button class="toolName">Adobe Illustrator</button>
+                            <button class="toolName">Adobe Photoshop</button>
+                            <button class="toolName">Adobe InDesign</button>
+                        <div> 
+                            <a href="school_projects.jpg" target="_blank" rel="noreferrer"><i class="fa-solid fa-desktop"></i></a>
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="contact" class="containerContact">
+                <h4 class="h4">CONTACT</h4>
+                <div class="icons">
+                    <a href="mailto: applgeny@gmail.com" target="_blank" rel="noreferrer"><i class="fa-regular fa-envelope"></i></a>  
+                    <a href="https://www.linkedin.com/in/genia-apple-ba1692225/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                 </div> 
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const handleItemClick = (sectionId) => {
+            smoothScroll(sectionId);
+        };
+
+        const smoothScroll = (targetId) => {
+            const targetElement = document.querySelector(targetId);
+            const offsetPosition = targetElement.offsetTop;
+
+            window.scrollTo({
+            top: offsetPosition-100,
+            behavior: 'smooth'
+            });
+        }
+
+    window.addEventListener('scroll', handleScroll);
+    </script>
+</body>
+</html>
